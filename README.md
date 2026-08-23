@@ -15,6 +15,7 @@ Customer segmentation helps financial institutions understand different usage pa
 | File | Description |
 | --- | --- |
 | `credit-card-customer-segmentation.ipynb` | Clean English Google Colab notebook containing the complete analysis and segmentation workflow. |
+| `credit_card_customers.csv` | Source dataset containing credit card usage and payment behavior for 8,950 customers. |
 
 ## Analysis Workflow
 
@@ -73,7 +74,7 @@ The notebook records a higher Silhouette Score at k=3 than at k=4, while k=4 is 
 
 ## Dataset
 
-The notebook automatically loads the credit-card customer dataset from a public CSV source. The analysis covers 8,950 customers and behavioral variables related to balances, purchases, cash advances, payment patterns, credit limits, and transaction frequency.
+The repository includes a local copy of the credit-card customer dataset as `credit_card_customers.csv` for convenient review and reproducibility. The notebook loads the public CSV source referenced in its data-loading cell. The analysis covers 8,950 customers and behavioral variables related to balances, purchases, cash advances, payment patterns, credit limits, and transaction frequency.
 
 ## How to Run
 
